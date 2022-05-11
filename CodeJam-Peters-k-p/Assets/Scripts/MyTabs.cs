@@ -33,8 +33,8 @@ public class MyTabs : MonoBehaviour
 
 
         //skifter farven på de inactive Tabbuutons når de er inactive.
-        tabbutton1.GetComponent<Button>().image.color = new Color32(212, 212, 212, 255);
-        tabbutton2.GetComponent<Button>().image.color = new Color32(212, 212, 212, 255);
+        tabbutton1.GetComponent<Button>().image.color = new Color32(128, 213, 244, 150);
+        tabbutton2.GetComponent<Button>().image.color = new Color32(128, 213, 244, 150);
 
     }
     public void ShowTab1()
@@ -42,7 +42,7 @@ public class MyTabs : MonoBehaviour
         //activer tabcontent 1 og higlighter farven
         HideAllTabs();
         tabcontent1.SetActive(true);
-        tabbutton1.GetComponent<Button>().image.color = new Color32(255, 255, 255, 255);
+        tabbutton1.GetComponent<Button>().image.color = new Color32(128, 213, 244, 255);
 
     }
     public void ShowTab2()
@@ -50,7 +50,7 @@ public class MyTabs : MonoBehaviour
         //activer tabcontent 2 og higlighter farven
         HideAllTabs();
         tabcontent2.SetActive(true);
-        tabbutton2.GetComponent<Button>().image.color = new Color32(255, 255, 255, 255);
+        tabbutton2.GetComponent<Button>().image.color = new Color32(128, 213, 244, 255);
 
     }
 

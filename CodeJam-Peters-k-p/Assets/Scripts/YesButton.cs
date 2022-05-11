@@ -7,6 +7,7 @@ public class YesButton : MonoBehaviour
 [SerializeField] GameObject guideMenu;
 [SerializeField] GameObject guideMenuTwo;
 [SerializeField] GameObject guideMenuThree;
+[SerializeField] GameObject guideMenuFour;
  
     public void Closer()
     {
